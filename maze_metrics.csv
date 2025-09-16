@@ -1,0 +1,7 @@
+H,W,algo,ascii_bytes,cpu_time_s,explored_cells,gen_algo,grid_cells,n,ok,path_len_cells,peak_mem_bytes,phase,remaining_empty_cells,seed,wall_cells,wall_time_s
+31,31,gen_backtracking,991,0.0,,,961,15,,,15741,generation,,118908,,0.001491600000008475
+,,solve_backtracking,,0.0,163,gen_backtracking,,15,True,257,348568,solving,31,118908,510,0.002986700001201825
+,,solve_astar,,0.0,85,gen_backtracking,,15,True,257,137612,solving,109,118908,510,0.0009822000029089395
+31,31,gen_kruskal,991,0.0,,,961,15,,,48768,generation,,118908,,0.0007039999982225709
+,,solve_backtracking,,0.0,337,gen_kruskal,,15,True,61,86400,solving,53,118908,510,0.000739799997973023
+,,solve_astar,,0.0,71,gen_kruskal,,15,True,61,28872,solving,319,118908,510,0.0003327000013086945
