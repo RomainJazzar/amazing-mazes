@@ -28,6 +28,7 @@ Run the script and answer prompts:
 
 from typing import List, Tuple, Optional
 import heapq
+import sys
 
 WALL = '#'
 EMPTY = '.'
@@ -35,7 +36,7 @@ PATH = 'o'
 SEEN = '*'
 Coord = Tuple[int, int]
 Grid = List[List[str]]
-
+sys.setrecursionlimit(10000)
 # --------------------
 # I/O utilities
 # --------------------
